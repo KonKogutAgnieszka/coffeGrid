@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Festive&display=swap');
+
+*{
+    margin:0;
+    background-color:#ccb9b1;
+    font-family: 'Josefin Sans', sans-serif;
+    
+}
+
+.container{
+    margin:5vh 5vw;
+    display:grid;
+    grid-template-columns:repeat(3, minmax(100px,1fr));
+    grid-template-rows:20vh 40vh 20vh;
+    grid-gap: 10px;
+}
+
+div{
+    
+}
+
+.title{
+    border:2px solid #c08267;
+    grid-column: 1/3;
+    font-size:6rem;
+    font-family: 'Festive', cursive;
+    text-align:center;
+
+}
+
+.grains{
+    background-image: url(/img/grains.jpg);
+    background-position: center;
+    background-repeat:no-repeat;
+    background-size:cover;
+    grid-column:3;
+}
+
+
+
+.about{
+    background-color:#c08267 ;
+    padding:2%;
+    font-size:1.2rem;
+    text-align: left;
+
+}
+
+.about h2{
+   background:inherit;
+   margin:0 auto;
+}
+
+
+.portafilter_container{
+    grid-column: 2; 
+
+
+  
+}
+
+.portafilter_container:hover{
+    background-color:#c08267 ;
+    
+}
+
+.portafilter{
+    display: block;
+    z-index: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.overlay{
+
+}
+
+.source{
+    background-color:#c08267 ;
+}
+
+.cappucino{
+    background-image: url(/img/cappucino.jpg);
+    background-position: center;
+    background-repeat:no-repeat;
+    background-size:cover;
+}
+
+.footer{
+    border:2px solid #c08267;
+    grid-column: 2/4;
+}
+
+p{
+    background:inherit;
+}
+
+button{
+    text-align: center;
+}
+
+
+/* images used: pixabay.com 
+text used: http://coffeeipsum.com/*/
