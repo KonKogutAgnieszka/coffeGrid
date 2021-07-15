@@ -16,9 +16,6 @@
     grid-gap: 10px;
 }
 
-div{
-    
-}
 
 .title{
     border:2px solid #c08267;
@@ -44,6 +41,7 @@ div{
     padding:2%;
     font-size:1.2rem;
     text-align: left;
+    overflow: hidden;
 
 }
 
@@ -73,12 +71,13 @@ div{
     object-fit: cover;
 }
 
-.overlay{
-
-}
 
 .source{
     background-color:#c08267 ;
+    font-size:1.2rem;
+    text-align: left;
+    padding:2%;
+    overflow: hidden;
 }
 
 .cappucino{
@@ -91,6 +90,15 @@ div{
 .footer{
     border:2px solid #c08267;
     grid-column: 2/4;
+    text-align: center;
+    
+}
+
+.footer h2{
+    font-family: 'Festive', cursive;
+    font-size: 3rem;
+    text-decoration:none;
+    font-weight: 1;
 }
 
 p{
@@ -100,6 +108,14 @@ p{
 button{
     text-align: center;
 }
+
+.contact{
+    color:black;
+    font-size: 2rem;
+    
+}
+
+
 
 
 /* images used: pixabay.com 
