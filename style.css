@@ -95,6 +95,7 @@
 }
 
 .footer h2{
+    margin:3%;
     font-family: 'Festive', cursive;
     font-size: 3rem;
     text-decoration:none;
@@ -113,6 +114,10 @@ button{
     color:black;
     font-size: 2rem;
     
+}
+
+a{
+margin:4%;
 }
 
 
