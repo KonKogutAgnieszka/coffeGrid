@@ -28,7 +28,7 @@
 }
 
 .grains{
-    background-image: url(/img/grains.jpg);
+    background-image: url(./img/grains.jpg);
     background-position: center;
     background-repeat:no-repeat;
     background-size:cover;
@@ -82,7 +82,7 @@
 }
 
 .cappucino{
-    background-image: url(/img/cappucino.jpg);
+    background-image: url(./img/cappucino.jpg);
     background-position: center;
     background-repeat:no-repeat;
     background-size:cover;
