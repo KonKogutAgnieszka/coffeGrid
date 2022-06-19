@@ -1,5 +1,5 @@
-coffe CSS grid
-My first projct using CSS grid
+# coffe CSS grid
+> My first projct using CSS grid
 > Live demo [_here_](https://konkogutagnieszka.github.io/coffeGrid/).
 
 ## Table of Contents
